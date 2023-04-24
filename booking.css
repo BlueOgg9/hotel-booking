@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 656px;
+
+}
+.header .Thead{
+    background-color: #141416;
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+}
+.header .title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    position: relative;
+    top: 27px;
+    left: 85px;
+}
+.header .Himg{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 20px;
+    left: 40px;
+}
+.header .Ltitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E7ECF3;  
+    margin-top: 23px;
+    margin-right: 15px;
+    display: flex;
+}
+.header .Ltitle .user{
+    border-left: 1px solid #3B3E44;
+    padding-right: 20px;
+    padding-left: 10px;
+    width: 70px;
+    height: 40px;
+}
+.header .Ltitle .LHimg{
+    padding-right: 20px;
+    padding-left: 14px;
+    padding-top: 5px;
+    width: 45px;
+    height: 25px;
+}
+.header .Ltitle .us{
+    padding-left: 14px;
+    padding-top: 5px;
+    width: 40px;
+    height: 30px;
+}
+.Ltitle p{
+    padding-top: 10px;
+}
+.Ltitle .titleimg{
+    height: 656px;
+}
+.header .TitleH1{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: -0.005em;
+    color: #3B3E44;
+    position: relative;
+    top: 219px;
+    left: 135px;
+    height: 240px;
+    width: 500px;
+}
+.header .Bimg{
+    width: auto;
+    height: 580px;
+    background-image: url(./img/background.png);
+    background-size: auto;
+}
+.seach{
+    width: 1170px;
+    height: 200px;
+    border-radius: 20px;
+    background: #222529;
+    margin-left: 135px;
+    display: flex;
+    flex-direction: column;    
+    position: absolute;
+    top: 556px;
+    left: 10.5%;
+}
+.seach p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FCFCFD;    
+    margin-top: 30px;
+    
+}
+.seach .topS{
+    width: 850px;
+    height: 70px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #3B3E44;
+}
+.seach .topS .hotel{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.seach .topS .car{
+    margin: 23px 30px 30px -148px;
+    color: #FCFCFD;    
+
+}
+.seach .topS .topSR-img{
+    margin-left: 8px;
+}
+.seach .topS .topSR{
+    display: flex;
+}
+.seach .botS{
+    margin-left: 60px;
+    display: flex;
+    margin-top: 6px;
+    
+}
+.seach .botS .Loca{
+    width: 330px;
+    height: 70px;
+    background: #3B3E44;
+    opacity: 0.8;
+    border: 1px solid #4A4E54;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-left: 24px;
+}
+.seach .botS .in{
+    width: 250px;
+    height: 70px;
+    background: #3B3E44;
+    opacity: 0.8;
+    border: 1px solid #4A4E54;
+    border-radius: 8px;
+    margin-right: 8px;
+    padding-top: 10px;
+    padding-left: 24px;
+}
+.seach .botS .out{
+    width: 250px;
+    height: 70px;
+    background: #3B3E44;
+    opacity: 0.8;
+    border: 1px solid #4A4E54;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 24px;
+}
+.seach .botS .arrow{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 130px;
+    left: 382px;
+}
+.seach .botS .arrow1{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 130px;
+    left: 639px;
+}
+.seach button{
+    position: absolute;
+    width: 152px;
+    height: 70px;
+    left: 958px;
+    top: 105px;    
+    background: #3B71FE;
+    border-radius: 10px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;   
+    color: #FFFFFF;
+}
+.Bigcontainer{
+    background: #141416;
+}
+.Bigcontainer .box1 h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;   
+    letter-spacing: -0.005em; 
+    color: #F4F5F6;
+    text-align: center;
+}
+.Bigcontainer .box1 .b1text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;    
+    text-align: center;    
+    color: #84878B;
+    margin-top: 12px;
+    margin-bottom: 70px;
+}
+.Bigcontainer .box1{
+    margin-top: 148px;
+    
+}
+.Bigcontainer .box1 .kuta{
+    width: 250;
+    height: 205;
+    border: 1px solid #3B3E44;
+    border-radius: 10px;
+    text-align: left;
+}
+.Bigcontainer .box1 .kuta h4{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;   
+    color: #E7ECF3;   
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.Bigcontainer .box1 .kuta p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;    
+    color: #777E90;    
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.Bigcontainer .bata{
+    display: grid;
+    row-gap: 30px;
+    column-gap: 30px;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: 205px 205px;
+    margin-left: 340px;
+}
+.Bigcontainer .kuta .dua{
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.Bigcontainer .box2 h2{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    margin-left: 340px;
+    margin-top: 71px;
+    margin-bottom: 10pxs;
+}
+.Bigcontainer .box2 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    color: #B1B5C4;
+    margin-left: 340px;
+}
+.Bigcontainer .box2 .b2flex .flexR .lona{
+    margin-bottom: 30px;
+}
+.us{
+    margin-right: 30px;
+}
+.Bigcontainer .box2 .b2flex .flexR .london{
+    display: flex;
+}
+.Bigcontainer .box2 .b2flex{
+    display: flex;
+    margin-left: 340px;
+    margin-top: 40px;
+}
+.Bigcontainer .box2 .b2flex .flexL{
+    margin-left: 30px;
+}
+.jp{
+    margin-bottom: 30px;
+}
+
